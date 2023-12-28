@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bloggin.com Using Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main-nav">
+      <nav class="navbar navbar-expand-lg bg-body-secondary h-nav-resp">
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav m-auto v-nav-resp">
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">HOME</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">RECIPIE</a>
+              </li>
+              <li class="nav-item mx-5">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="main-container">
+      <figure class="figure">
+        <img
+          src="maincontainerimg.webp"
+          class="figure-img img-fluid rounded"
+          alt="Food leaf img"
+        />
+        <figcaption class="figure-caption">
+          <h1 class="figure-caption-heading fs-3">APPETIZING ADVANTURE</h1>
+          <p class="figure-caption-para fst-italic fs-5">
+            - Cooking & Blogging -
+          </p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="Recipe-container mt-0">
+      <div class="recipi-contant-container">
+        <div class="card-contant">
+          <div class="card" style="width: 18rem; border: none">
+            <div class="card-body">
+              <h5 class="card-title fst-italic fs-3">HI THERE</h5>
+              <h6 class="card-subtitle mb-2 text-body-secondary">________</h6>
+              <p class="card-text fst-italic fs-6">
+                I'm Dana! I cook simple, delicious recipes with three easy
+                rules: I use only 1 bowl, up to 10 ingredients, and take just 30
+                minutes or less to <br />
+                Bon Appetit!
+              </p>
+              <a
+                href="#"
+                class="card-link text-decoration-none text-danger fst-italic fs-8"
+                >learn More</a
+              >
+              <a
+                href="#"
+                class="card-link text-decoration-none text-danger fst-italic fs-8"
+                >Get Recipe</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="recipi-card-container">
+        <div class="card-item">
+          <div class="card mb-3">
+            <img
+              src="cardimg.webp"
+              class="card-img-top"
+              alt="Chicken jellfarezy "
+            />
+            <div class="card-body">
+              <h5 class="card-title fst-italic fs-3">
+                Appetizers for your dinner party
+              </h5>
+              <p class="card-text fst-italic fs-6 fst-italic">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading....
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 3 mins ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Recipe-container mt-0">
+      <div class="recipi-contant-container">
+        <div class="card" style="width: 18rem; border: none">
+          <img
+            src="bookimg.gif"
+            class="card-img-top"
+            alt="Book cover img"
+          />
+          <div class="card-body">
+            <h5 class="card-title">ORDER MY COCKBOOK</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Order Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="recipi-card-container">
+        <div class="card-item">
+          <div class="card mb-3">
+            <img
+              src="cardimg2.webp"
+              class="card-img-top"
+              alt="Chicken jellfarezy "
+            />
+            <div class="card-body">
+              <h5 class="card-title fst-italic fs-3">
+                A Full Course Italian Meal
+              </h5>
+              <p class="card-text fst-italic fs-6 fst-italic">
+                Create a blog post subtitle that summarizes your post in a few
+                short, punchy sentences and entices your audience to continue
+                reading....
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"
+                  >Last updated 5 days ago</small
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pagination-container m-auto" style="width: 25%; margin: auto">
+      <nav aria-label="...">
+        <ul class="pagination mt-4">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">2</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container bg-body-secondary text-danger">
+      <footer class="py-3 mt-4">
+        <p class="text-center text-body-secondary">© 2023 FoodCorner, Inc</p>
+      </footer>
+    </div>
+  </body>
+  <script>
+    let Burger = document.querySelector(".burger");
+    let Navbar = document.querySelector(".navbar");
+    let Navlist = document.querySelector(".navbar-nav");
+    Burger.addEventListener("click", () => {
+      Navlist.classList.toggle("v-nav-resp");
+      Navbar.classList.toggle("h-nav-resp");
+    });
+  </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+</html>
